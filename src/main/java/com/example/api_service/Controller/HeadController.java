@@ -20,7 +20,7 @@ public class HeadController {
     //    Randomized TRUE / FALSE
     public static boolean getRandomBoolean() {
         return Math.random() < 0.5;
-        //I tried another approaches here, still the same result
+
     }
 
     //    Randomized INT in lim1-lim2
@@ -31,7 +31,7 @@ public class HeadController {
 
     //    Logging init
     private Logger log = LoggerFactory.getLogger(HeadController.class);
-//    ObjectMapper mapper = new ObjectMapper();
+
 
     //    POST - request clearance - handler declaration
     @PostMapping(value = "/info/postBalances", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
